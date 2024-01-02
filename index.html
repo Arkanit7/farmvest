@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FarmVest</title>
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/script.js" defer></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container container_big">
+
+				<div class="header__brand">
+					<a class="header__link" href="#" title="Go to home page">FarmVest</a>
+				</div>
+
+				<button class="header__toggler toggler" aria-expanded="false" aria-label="Open menu." title="Open menu.">
+					<span class="toggler__icon"></span>
+				</button>
+
+				<div class="header__menu">
+					<nav class="header__navbar navbar">
+						<ul class="navbar__list">
+
+							<li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
+							<li class="navbar__item"><a href="#" class="navbar__link">About</a></li>
+							<li class="navbar__item"><a href="#" class="navbar__link">Features</a></li>
+							<li class="navbar__item"><a href="#" class="navbar__link">How it works</a></li>
+
+						</ul>
+					</nav>
+				</div>
+
+				<div class="header__buttons">
+					<button class="header__theme" aria-label="Switch color scheme." title="Switch color scheme." data-theme="toggle"
+						data-move-to=".header__menu" data-move-on="992"><svg>
+							<use xlink:href="#sun-icon"></use>
+						</svg>
+					</button>
+					<button class="header__button button button_ghost button_lato">Sign In</button>
+					<button class="header__button button button_lato" data-move-to=".header__menu" data-move-on="768">Get
+						Started</button>
+				</div>
+
+			</div>
+		</header>
+
+		<main class="main">
+
+			<section class="invest">
+				<div class="invest__container container">
+					<div class="invest__info info">
+						<h1 class="invest__title info__title">The easiest and fastest way to <span>Invest</span> in Agriculture
+						</h1>
+						<p class="invest__text info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis
+							aenean sit
+							dictum tincidunt. Ut arcu, suscipit ac
+							etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</p>
+						<form action="#" class="info__form form">
+							<input class="form__input" type="email" required placeholder="Enter your email">
+							<input class="form__button button" type="submit" value="Get Started">
+						</form>
+					</div>
+					<div class="invest__circles">
+						<span class="invest__circle-one circle" data-prllx-mouse="120"></span><span
+							class="invest__circle-two circle" data-prllx-mouse="-120"></span>
+					</div>
+				</div>
+				<div class="invest__decorations">
+					<span class="icon__currency-dollar" data-prllx-mouse="7"></span>
+					<span class="icon__star-filled" data-prllx-mouse="-16"></span>
+					<span class="icon__ellipse" data-prllx-mouse="33"></span>
+					<span class="icon__money-bag" data-prllx-mouse="-40"></span>
+					<span class="icon__ellipse-filled" data-prllx-mouse="25"></span>
+					<span class="icon__star" data-prllx-mouse="-19"></span>
+					<span class="icon__currency" data-prllx-mouse="-12"></span>
+				</div>
+			</section>
+			<div class="brands">
+				<div class="brands__container container">
+					<div class="brands__brand">
+						<span class="brands__MarketWatch-Logo icon__MarketWatch-Logo" aria-label="Market Watch"></span>
+					</div>
+					<div class="brands__brand">
+						<span class="brands__Forbescom-Logo icon__Forbescom-Logo" aria-label="Forbes"></span>
+					</div>
+					<div class="brands__brand">
+						<span class="brands__Business-Insider-Logo icon__Business-Insider-Logo" aria-label="Business Insider"></span>
+					</div>
+					<div class="brands__brand">
+						<span
+							class="brands__Fidelity-Management-and-Research-Company-Logo icon__Fidelity-Management-and-Research-Company-Logo" aria-label="Fidelity Investments"></span>
+					</div>
+					<div class="brands__brand">
+						<span class="brands__WIRED-UK-Logo-undefined icon__WIRED-UK-Logo-undefined" aria-label="Wired"></span>
+					</div>
+				</div>
+			</div>
+			<section class="works">
+				<div class="works__container container">
+					<div class="works__row row">
+						<div class="works__information row__information">
+							<div class="info">
+								<h2 class="info__title">How <span>FarmVest</span> Works</h2>
+								<p class="info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu,
+									mollis
+									aenean sit
+									dictum tincidunt. Ut arcu, suscipit ac
+									etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+							<ol class="steps">
+								<li class="steps__step">
+									<div class="steps__circle">
+										<div class="steps__picture"><span class="icon__mobile-download"></span></div>
+									</div>
+									<div class="steps__right-side">
+										<p class="steps__title">Download FarmVest</p>
+										<p class="steps__text">Start by downloading FarmVest app
+											on your Android or IOS</p>
+									</div>
+								</li>
+								<li class="steps__step">
+									<div class="steps__circle">
+										<div class="steps__picture"><span class="icon__private-account"></span></div>
+									</div>
+									<div class="steps__right-side">
+										<p class="steps__title">Create account</p>
+										<p class="steps__text">Start by downloading FarmVest app
+											on your Android or IOS</p>
+									</div>
+								</li>
+								<li class="steps__step">
+									<div class="steps__circle">
+										<div class="steps__picture"><span class="icon__account-balance"></span></div>
+									</div>
+									<div class="steps__right-side">
+										<p class="steps__title">Link your bank account</p>
+										<p class="steps__text">Start by downloading FarmVest app
+											on your Android or IOS</p>
+									</div>
+								</li>
+								<li class="steps__step">
+									<div class="steps__circle">
+										<div class="steps__picture"><span class="icon__currency-dollar"></span></div>
+									</div>
+									<div class="steps__right-side">
+										<p class="steps__title">Start Investing</p>
+										<p class="steps__text">Start by downloading FarmVest app
+											on your Android or IOS</p>
+									</div>
+								</li>
+							</ol>
+						</div>
+						<div class="works__frame row__frame">
+							<picture class="works__picture row__picture" data-prllx-scroll="2.5">
+								<source srcset="img/works/01.webp" type="image/webp"><img src="img/works/01.jpg" alt="A happy man uses FarmVest application on his smartphone.">
+							</picture>
+
+							<span class="row__circle-one row__circle-one_rotate circle" data-prllx-mouse="120"></span><span
+								class="row__circle-two row__circle-two_rotate circle" data-prllx-mouse="-120"></span>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="pathway">
+				<div class="pathway__container container">
+					<div class="pathway__row row">
+
+						<div class="pathway__frame row__frame">
+							<picture class="pathway__picture row__picture" data-prllx-scroll="2.5">
+								<source srcset="img/pathway/01.webp" type="image/webp"><img src="img/pathway/01.jpg"
+									alt="A man listening to music. ">
+							</picture>
+
+							<span class="row__circle-one circle" data-prllx-mouse="120"></span><span class="row__circle-two circle"
+								data-prllx-mouse="-120"></span>
+						</div>
+
+						<div class="pathway__information row__information">
+							<div class="info">
+								<h2 class="info__title">Your <span>pathway</span> to Future Investment</h2>
+								<p class="info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu,
+									mollis
+									aenean sit
+									dictum tincidunt. Ut arcu, suscipit ac
+									etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+							<div class="pathway__accordion accordion" data-accordion="one">
+								<section class="accordion__panel" data-accordion="panel">
+									<h3 class="accordion__title">
+										<button class="accordion__trigger" aria-controls="pathway-sec1" id="pathway-accordion1"
+											aria-expanded="false" type="button">
+											<span class="accordion__text">
+												What is FarmVest?
+												<span class="accordion__icon icon__arrow-down"></span>
+											</span>
+										</button>
+									</h3>
+									<div class="accordion__content" id="pathway-sec1" aria-labelledby="pathway-accordion1"
+										aria-hidden="true" role="region">
+										<div class="accordion__body">
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam a, veritatis dolores sit
+											cum illum
+											veniam
+											quas sed repudiandae totam ea. Natus cumque asperiores ad quasi nesciunt esse neque?
+											Odit voluptas aliquam beatae ex sit eos neque reiciendis consequatur porro quidem cum ratione
+											voluptates
+											provident, earum natus sunt nemo adipisci pariatur reprehenderit ullam quam est? Nobis nostrum
+											earum
+											cupiditate?
+											Excepturi aut fugit, voluptas non earum officia quas illo, praesentium molestiae ex nostrum sit
+											error
+											reprehenderit fugiat necessitatibus facilis eligendi libero reiciendis amet debitis cumque, a
+											deleniti magni
+											ipsa!
+											Quam.
+											Neque sapiente, provident unde eaque aspernatur quam saepe consequatur autem beatae eveniet porro
+											debitis
+											necessitatibus, reprehenderit praesentium, omnis sint repudiandae culpa corporis veritatis
+											molestiae! Quod
+											obcaecati ratione modi amet quas?
+											Fugit distinctio autem tempora atque. Animi temporibus suscipit distinctio commodi est? Dolorum
+											repellendus
+											hic
+											eos esse corporis cum, sequi consequuntur possimus dolores quisquam qui officiis ipsum nisi
+											dolorem alias
+											temporibus.
+										</div>
+									</div>
+
+								</section>
+								<section class="accordion__panel" data-accordion="panel">
+									<h3 class="accordion__title">
+										<button class="accordion__trigger" aria-controls="pathway-sec2" id="pathway-accordion2"
+											aria-expanded="false" type="button">
+											<span class="accordion__text">
+												How safe is FarmVest
+												<span class="accordion__icon icon__arrow-down"></span>
+											</span>
+										</button>
+									</h3>
+									<div class="accordion__content" id="pathway-sec2" aria-labelledby="pathway-accordion2"
+										aria-hidden="true" role="region">
+										<div class="accordion__body">
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam a, veritatis dolores sit
+											cum illum
+											veniam
+											quas sed repudiandae totam ea. Natus cumque asperiores ad quasi nesciunt esse neque?
+											Odit voluptas aliquam beatae ex sit eos neque reiciendis consequatur porro quidem cum ratione
+											voluptates
+											provident, earum natus sunt nemo adipisci pariatur reprehenderit ullam quam est? Nobis nostrum
+											earum
+											cupiditate?
+											Excepturi aut fugit, voluptas non earum officia quas illo, praesentium molestiae ex nostrum sit
+											error
+											reprehenderit fugiat necessitatibus facilis eligendi libero reiciendis amet debitis cumque, a
+											deleniti magni
+											ipsa!
+											Quam.
+											Neque sapiente, provident unde eaque aspernatur quam saepe consequatur autem beatae eveniet porro
+											debitis
+											necessitatibus, reprehenderit praesentium, omnis sint repudiandae culpa corporis veritatis
+											molestiae! Quod
+											obcaecati ratione modi amet quas?
+											Fugit distinctio autem tempora atque. Animi temporibus suscipit distinctio commodi est? Dolorum
+											repellendus
+											hic
+											eos esse corporis cum, sequi consequuntur possimus dolores quisquam qui officiis ipsum nisi
+											dolorem alias
+											temporibus.
+										</div>
+									</div>
+
+								</section>
+								<section class="accordion__panel" data-accordion="panel">
+									<h3 class="accordion__title">
+										<button class="accordion__trigger" aria-controls="pathway-sec3" id="pathway-accordion3"
+											aria-expanded="false" type="button">
+											<span class="accordion__text">
+												What do I gain from using FarmVest?
+												<span class="accordion__icon icon__arrow-down"></span>
+											</span>
+										</button>
+									</h3>
+									<div class="accordion__content" id="pathway-sec3" aria-labelledby="pathway-accordion3"
+										aria-hidden="true" role="region">
+										<div class="accordion__body">
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam a, veritatis dolores sit
+											cum illum
+											veniam
+											quas sed repudiandae totam ea. Natus cumque asperiores ad quasi nesciunt esse neque?
+											Odit voluptas aliquam beatae ex sit eos neque reiciendis consequatur porro quidem cum ratione
+											voluptates
+											provident, earum natus sunt nemo adipisci pariatur reprehenderit ullam quam est? Nobis nostrum
+											earum
+											cupiditate?
+											Excepturi aut fugit, voluptas non earum officia quas illo, praesentium molestiae ex nostrum sit
+											error
+											reprehenderit fugiat necessitatibus facilis eligendi libero reiciendis amet debitis cumque, a
+											deleniti magni
+											ipsa!
+											Quam.
+											Neque sapiente, provident unde eaque aspernatur quam saepe consequatur autem beatae eveniet porro
+											debitis
+											necessitatibus, reprehenderit praesentium, omnis sint repudiandae culpa corporis veritatis
+											molestiae! Quod
+											obcaecati ratione modi amet quas?
+											Fugit distinctio autem tempora atque. Animi temporibus suscipit distinctio commodi est? Dolorum
+											repellendus
+											hic
+											eos esse corporis cum, sequi consequuntur possimus dolores quisquam qui officiis ipsum nisi
+											dolorem alias
+											temporibus.
+										</div>
+									</div>
+
+								</section>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="choose">
+				<div class="choose__container container">
+					<div class="choose__row row">
+						<div class="choose__information row__information">
+							<div class="info">
+								<h2 class="info__title">Why choose <span>FarmVest</span></h2>
+								<p class="info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit
+									dictum tincidunt. Ut arcu, suscipit ac</p>
+							</div>
+							<ol class="choose__numbers numbers">
+								<li class="numbers__step">
+
+									<div class="numbers__circle">
+										<span class="numbers__num">1</span>
+									</div>
+
+									<p class="numbers__title">Real-time Checkup</p>
+
+								</li>
+								<li class="numbers__step">
+
+									<div class="numbers__circle">
+										<span class="numbers__num">2</span>
+									</div>
+
+									<p class="numbers__title">Flexibility in Investment</p>
+
+								</li>
+								<li class="numbers__step">
+
+									<div class="numbers__circle">
+										<span class="numbers__num">3</span>
+									</div>
+
+									<p class="numbers__title">Encrypted and Secured</p>
+
+								</li>
+								<li class="numbers__step">
+
+									<div class="numbers__circle">
+										<span class="numbers__num">4</span>
+									</div>
+
+									<p class="numbers__title">Withdraw Anytime</p>
+
+								</li>
+							</ol>
+							<button class="choose__button button button_wide">Learn More</button>
+						</div>
+						<div class="choose__frame row__frame row__frame_rotate">
+							<picture class="choose__picture row__picture" data-prllx-scroll="2.5">
+								<source srcset="img/choose/01.webp" type="image/webp"><img src="img/choose/01.jpg"
+									alt="A woman reading from smartphone.">
+							</picture>
+
+							<!-- <span class="row__circle-one row__circle-one_rotate circle" data-prllx-mouse="120"></span><span
+								class="row__circle-two row__circle-two_rotate circle" data-prllx-mouse="-120"></span> -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="customers">
+				<div class="customers__container container">
+					<div class="customers__info info">
+						<h2 class="info__title">What <span>Customers</span> have to say</h2>
+						<p class="info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit
+							dictum tincidunt. Ut arcu, suscipit ac</p>
+					</div>
+					<div class="customers__reviews">
+						<div class="customers__row">
+							<div class="customers__item">
+								<div class="customers__frame">
+									<picture class="customers__picture">
+										<source srcset="img/customers/01.webp" type="image/webp"><img src="img/customers/01.jpg"
+											alt="A woman reading from smartphone.">
+									</picture>
+								</div>
+								<div class="customers__article">
+									<p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis
+										aenean
+										sit dictum tincidunt. Ut arcu, suscipit ac</p>
+									<span class="customers__author">Tonia Smart</span>
+								</div>
+							</div>
+							<div class="customers__item">
+								<div class="customers__frame">
+									<picture class="customers__picture">
+										<source srcset="img/customers/02.webp" type="image/webp"><img src="img/customers/02.jpg"
+											alt="A smiling woman.">
+									</picture>
+								</div>
+								<div class="customers__article">
+									<p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis
+										aenean
+										sit dictum tincidunt. Ut arcu, suscipit ac</p>
+									<span class="customers__author">Grace Obi</span>
+								</div>
+							</div>
+						</div>
+						<button class="customers__button button button_wide">View All</button>
+					</div>
+				</div>
+			</section>
+			<article class="download">
+				<div class="download__container container">
+					<div class="download__frame">
+
+						<div class="download__info info">
+							<h2 class="download__title info__title">Download <span>FarmVest app</span>
+								and invest in your future</h2>
+						</div>
+
+						<div class="download__store">
+							<a title="Open App Store." href="#" target="_blank" class="download__link">
+								<picture class="download__picture">
+									<source srcset="img/download/appstore.webp" type="image/webp"><img src="img/download/appstore.png"
+										alt="Avalible on the App Store.">
+								</picture>
+							</a>
+							<a title="Open GooglePlay." href="#" target="_blank" class="download__link">
+								<picture class="download__picture">
+									<source srcset="img/download/googleplay.webp" type="image/webp"><img src="img/download/googleplay.png"
+										alt="Get it on GooglePlay.">
+								</picture>
+							</a>
+						</div>
+
+						<span class="download__circle-one circle" data-prllx-mouse="120"></span>
+						<span class="download__circle-two circle" data-prllx-mouse="-120"></span>
+
+					</div>
+				</div>
+			</article>
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container container container_big">
+
+				<div class="footer__main f-main">
+
+					<div class="f-main__info">
+						<div class="f-main__brand">
+							<div class="f-main__icon icon">
+								<span class="icon__logo-attachment"></span>
+							</div>
+							<p class="f-main__name">FarmVest</p>
+						</div>
+						<div class="f-main__brand-text">High level experience in web design and development knowledge, producing
+							quality
+							work.</div>
+					</div>
+
+					<div class="f-main__subscribe">
+						<p class="f-main__form-text">Subscribe to stay tuned for new web design and latest updates. Let's do it!</p>
+						<form action="#" class="f-main__form form">
+							<input class="form__input" type="email" required placeholder="Enter your email">
+							<input class="form__button button" type="submit" value="Subscribe">
+						</form>
+					</div>
+
+					<div class="f-main__contacts">
+						<div class="f-main__follow follow">
+							<p class="follow__title">Follow Us</p>
+							<ul class="follow__social">
+								<li class="follow__item"><a title="Instagram" href="#" target="_blank" class="follow__link"><span
+											class="icon__instagram"></span></a>
+								</li>
+								<li class="follow__item"><a title="Facebook" href="#" target="_blank" class="follow__link"><span
+											class="icon__facebook"></span></a>
+								</li>
+								<li class="follow__item"><a title="Twitter (X)." href="#" target="_blank" class="follow__link"><span
+											class="icon__twitter"></span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="f-main__call call">
+							<div class="call__title">Call us</div>
+							<ul class="call__list">
+								<li class="call__item"><a href="tel:2349123456789" class="call__link">+2349123456789</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="footer__alt f-alt">
+					<p class="f-alt__copyrights">© 2021 All Rights Reserved</p>
+					<nav class="f-alt__nav">
+						<ul class="f-alt__list">
+							<li class="f-alt__item"><a href="#" class="f-alt__link">Privacy Policy</a></li>
+							<li class="f-alt__item"><a href="#" class="f-alt__link">Terms of Use</a></li>
+							<li class="f-alt__item"><a href="#" class="f-alt__link">Sales and Refunds</a></li>
+							<li class="f-alt__item"><a href="#" class="f-alt__link">Legal</a></li>
+							<li class="f-alt__item"><a href="#" class="f-alt__link">Site Map</a></li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+	<svg width="0" height="0" style="display: none;" hidden>
+		<symbol id="sun-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			enable-background="new 0 0 64 64" xml:space="preserve" viewBox="0 0 64 64">
+			<g>
+				<circle fill-rule="evenodd" clip-rule="evenodd" cx="32.003" cy="32.005" r="16.001"></circle>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M12.001,31.997c0-2.211-1.789-4-4-4H4c-2.211,0-4,1.789-4,4
+			s1.789,4,4,4h4C10.212,35.997,12.001,34.208,12.001,31.997z"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M12.204,46.139l-2.832,2.833c-1.563,1.562-1.563,4.094,0,5.656
+			c1.562,1.562,4.094,1.562,5.657,0l2.833-2.832c1.562-1.562,1.562-4.095,0-5.657C16.298,44.576,13.767,44.576,12.204,46.139z"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M32.003,51.999c-2.211,0-4,1.789-4,4V60c0,2.211,1.789,4,4,4
+			s4-1.789,4-4l-0.004-4.001C36.003,53.788,34.21,51.999,32.003,51.999z"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M51.798,46.143c-1.559-1.566-4.091-1.566-5.653-0.004
+			s-1.562,4.095,0,5.657l2.829,2.828c1.562,1.57,4.094,1.562,5.656,0s1.566-4.09,0-5.656L51.798,46.143z"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M60.006,27.997l-4.009,0.008
+			c-2.203-0.008-3.992,1.781-3.992,3.992c-0.008,2.211,1.789,4,3.992,4h4.001c2.219,0.008,4-1.789,4-4
+			C64.002,29.79,62.217,27.997,60.006,27.997z"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M51.798,17.859l2.828-2.829c1.574-1.566,1.562-4.094,0-5.657
+			c-1.559-1.567-4.09-1.567-5.652-0.004l-2.829,2.836c-1.562,1.555-1.562,4.086,0,5.649C47.699,19.426,50.239,19.418,51.798,17.859z"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M32.003,11.995c2.207,0.016,4-1.789,4-3.992v-4
+			c0-2.219-1.789-4-4-4c-2.211-0.008-4,1.781-4,3.993l0.008,4.008C28.003,10.206,29.792,11.995,32.003,11.995z"></path>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M12.212,17.855c1.555,1.562,4.079,1.562,5.646-0.004
+			c1.574-1.551,1.566-4.09,0.008-5.649l-2.829-2.828c-1.57-1.571-4.094-1.559-5.657,0c-1.575,1.559-1.575,4.09-0.012,5.653
+			L12.212,17.855z"></path>
+			</g>
+		</symbol>
+	</svg>
+</body>
+
+</html>
